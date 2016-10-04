@@ -1,9 +1,9 @@
 import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { DashboardComponent }   from './dashboard.component';
-import { HeroesComponent }      from './heroes.component';
-import { HeroDetailComponent }  from './hero-detail.component';
+import { DashboardComponent }   from './hero-about/dashboard.component';
+import { HeroesComponent }      from './hero-about/heroes.component';
+import { HeroDetailComponent }  from './hero-about/hero-detail.component';
 import { ChartComponent }  from './chart/chart.component';
 import { BootstrapComponent }  from './bootstrap/bootstrap.component';
 
