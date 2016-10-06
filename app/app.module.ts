@@ -19,6 +19,7 @@ import { PieChartDemoComponent }  from './chart/components/pie/pie-chart-demo';
 import { DoughnutChartDemoComponent }  from './chart/components/doughnut/doughnut-chart-demo';
 import { PolarAreaChartDemoComponent }  from './chart/components/polar/polar-area-chart-demo';
 import { RadarChartDemoComponent }  from './chart/components/radar/radar-chart-demo';
+import { ChartHeaderComponent } from './chart/header/header.component'
 
 import { BootstrapComponent }  from './bootstrap/bootstrap.component';
 //import { CHART_DIRECTIVES } from 'ng2-charts/ng2-charts';
@@ -69,7 +70,8 @@ import { TypeaheadDemoComponent } from './bootstrap/components/typeahead/typeahe
     DoughnutChartDemoComponent,
     PolarAreaChartDemoComponent,
     RadarChartDemoComponent,
-    
+    ChartHeaderComponent,
+
     //bootstrap
     DatepickerComponent,
     AccordionDemoComponent,

@@ -27,6 +27,7 @@ var pie_chart_demo_1 = require('./chart/components/pie/pie-chart-demo');
 var doughnut_chart_demo_1 = require('./chart/components/doughnut/doughnut-chart-demo');
 var polar_area_chart_demo_1 = require('./chart/components/polar/polar-area-chart-demo');
 var radar_chart_demo_1 = require('./chart/components/radar/radar-chart-demo');
+var header_component_1 = require('./chart/header/header.component');
 var bootstrap_component_1 = require('./bootstrap/bootstrap.component');
 //import { CHART_DIRECTIVES } from 'ng2-charts/ng2-charts';
 var ng2_bootstrap_1 = require('ng2-bootstrap/ng2-bootstrap');
@@ -76,6 +77,7 @@ var AppModule = (function () {
                 doughnut_chart_demo_1.DoughnutChartDemoComponent,
                 polar_area_chart_demo_1.PolarAreaChartDemoComponent,
                 radar_chart_demo_1.RadarChartDemoComponent,
+                header_component_1.ChartHeaderComponent,
                 //bootstrap
                 datepicker_component_1.DatepickerComponent,
                 accordion_demo_1.AccordionDemoComponent,
