@@ -9,19 +9,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var ChartComponent = (function () {
-    function ChartComponent() {
+var PieChartDemoComponent = (function () {
+    function PieChartDemoComponent() {
+        // Pie
+        this.pieChartLabels = ['Download Sales', 'In-Store Sales', 'Mail Sales'];
+        this.pieChartData = [300, 500, 100];
+        this.pieChartType = 'pie';
     }
-    ChartComponent = __decorate([
+    // events
+    PieChartDemoComponent.prototype.chartClicked = function (e) {
+        console.log(e);
+    };
+    PieChartDemoComponent.prototype.chartHovered = function (e) {
+        console.log(e);
+    };
+    PieChartDemoComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'ng2-chart-demo',
-            templateUrl: 'chart.component.html',
-            styleUrls: ['chart.component.css']
+            selector: 'pie-chart-demo',
+            templateUrl: 'pie-chart-demo.html',
         }), 
         __metadata('design:paramtypes', [])
-    ], ChartComponent);
-    return ChartComponent;
+    ], PieChartDemoComponent);
+    return PieChartDemoComponent;
 }());
-exports.ChartComponent = ChartComponent;
-//# sourceMappingURL=chart.component.js.map
+exports.PieChartDemoComponent = PieChartDemoComponent;
+//# sourceMappingURL=pie-chart-demo.js.map

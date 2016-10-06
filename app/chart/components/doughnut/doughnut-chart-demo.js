@@ -9,19 +9,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var ChartComponent = (function () {
-    function ChartComponent() {
+var DoughnutChartDemoComponent = (function () {
+    function DoughnutChartDemoComponent() {
+        // Doughnut
+        this.doughnutChartLabels = ['Download Sales', 'In-Store Sales', 'Mail-Order Sales'];
+        this.doughnutChartData = [350, 450, 100];
+        this.doughnutChartType = 'doughnut';
     }
-    ChartComponent = __decorate([
+    // events
+    DoughnutChartDemoComponent.prototype.chartClicked = function (e) {
+        console.log(e);
+    };
+    DoughnutChartDemoComponent.prototype.chartHovered = function (e) {
+        console.log(e);
+    };
+    DoughnutChartDemoComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'ng2-chart-demo',
-            templateUrl: 'chart.component.html',
-            styleUrls: ['chart.component.css']
+            selector: 'doughnut-chart-demo',
+            templateUrl: 'doughnut-chart-demo.html',
         }), 
         __metadata('design:paramtypes', [])
-    ], ChartComponent);
-    return ChartComponent;
+    ], DoughnutChartDemoComponent);
+    return DoughnutChartDemoComponent;
 }());
-exports.ChartComponent = ChartComponent;
-//# sourceMappingURL=chart.component.js.map
+exports.DoughnutChartDemoComponent = DoughnutChartDemoComponent;
+//# sourceMappingURL=doughnut-chart-demo.js.map

@@ -17,7 +17,16 @@ var hero_detail_component_1 = require('./hero-about/hero-detail.component');
 var heroes_component_1 = require('./hero-about/heroes.component');
 var hero_service_1 = require('./hero-about/hero.service');
 var app_routing_1 = require('./app.routing');
+//Chart 
+var ng2_charts_1 = require('ng2-charts/ng2-charts');
 var chart_component_1 = require('./chart/chart.component');
+var line_chart_1 = require('./chart/components/line/line-chart');
+var base_chart_demo_1 = require('./chart/components/base/base-chart-demo');
+var bar_chart_demo_1 = require('./chart/components/bar/bar-chart-demo');
+var pie_chart_demo_1 = require('./chart/components/pie/pie-chart-demo');
+var doughnut_chart_demo_1 = require('./chart/components/doughnut/doughnut-chart-demo');
+var polar_area_chart_demo_1 = require('./chart/components/polar/polar-area-chart-demo');
+var radar_chart_demo_1 = require('./chart/components/radar/radar-chart-demo');
 var bootstrap_component_1 = require('./bootstrap/bootstrap.component');
 //import { CHART_DIRECTIVES } from 'ng2-charts/ng2-charts';
 var ng2_bootstrap_1 = require('ng2-bootstrap/ng2-bootstrap');
@@ -47,6 +56,7 @@ var AppModule = (function () {
                 platform_browser_1.BrowserModule,
                 forms_1.FormsModule,
                 app_routing_1.routing,
+                ng2_charts_1.ChartsModule,
                 ng2_bootstrap_1.CarouselModule,
                 ng2_bootstrap_2.Ng2BootstrapModule,
                 forms_1.ReactiveFormsModule
@@ -56,8 +66,16 @@ var AppModule = (function () {
                 dashboard_component_1.DashboardComponent,
                 hero_detail_component_1.HeroDetailComponent,
                 heroes_component_1.HeroesComponent,
+                //chart
                 chart_component_1.ChartComponent,
                 bootstrap_component_1.BootstrapComponent,
+                line_chart_1.LineChartChartComponent,
+                bar_chart_demo_1.BarChartDemoComponent,
+                base_chart_demo_1.BaseChartDemoComponent,
+                pie_chart_demo_1.PieChartDemoComponent,
+                doughnut_chart_demo_1.DoughnutChartDemoComponent,
+                polar_area_chart_demo_1.PolarAreaChartDemoComponent,
+                radar_chart_demo_1.RadarChartDemoComponent,
                 //bootstrap
                 datepicker_component_1.DatepickerComponent,
                 accordion_demo_1.AccordionDemoComponent,

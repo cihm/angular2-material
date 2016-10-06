@@ -9,8 +9,17 @@ import { HeroesComponent }      from './hero-about/heroes.component';
 import { HeroService }          from './hero-about/hero.service';
 import { routing } from './app.routing';
 
-
+//Chart 
+import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { ChartComponent }  from './chart/chart.component';
+import { LineChartChartComponent }  from './chart/components/line/line-chart';
+import { BaseChartDemoComponent}  from './chart/components/base/base-chart-demo';
+import { BarChartDemoComponent }  from './chart/components/bar/bar-chart-demo';
+import { PieChartDemoComponent }  from './chart/components/pie/pie-chart-demo';
+import { DoughnutChartDemoComponent }  from './chart/components/doughnut/doughnut-chart-demo';
+import { PolarAreaChartDemoComponent }  from './chart/components/polar/polar-area-chart-demo';
+import { RadarChartDemoComponent }  from './chart/components/radar/radar-chart-demo';
+
 import { BootstrapComponent }  from './bootstrap/bootstrap.component';
 //import { CHART_DIRECTIVES } from 'ng2-charts/ng2-charts';
 import { CarouselModule } from 'ng2-bootstrap/ng2-bootstrap';
@@ -38,6 +47,7 @@ import { TypeaheadDemoComponent } from './bootstrap/components/typeahead/typeahe
     BrowserModule,
     FormsModule,
     routing,
+    ChartsModule,
     CarouselModule,
     Ng2BootstrapModule,
     ReactiveFormsModule
@@ -48,8 +58,17 @@ import { TypeaheadDemoComponent } from './bootstrap/components/typeahead/typeahe
     DashboardComponent,
     HeroDetailComponent,
     HeroesComponent,
+    
+    //chart
     ChartComponent,
     BootstrapComponent,
+    LineChartChartComponent,
+    BarChartDemoComponent,
+    BaseChartDemoComponent,
+    PieChartDemoComponent,
+    DoughnutChartDemoComponent,
+    PolarAreaChartDemoComponent,
+    RadarChartDemoComponent,
     
     //bootstrap
     DatepickerComponent,
