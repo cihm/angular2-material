@@ -38,6 +38,9 @@ export class TopMenuComponent implements AfterViewInit {
     console.log();
     if (this.document && this.document.body) {
       this.renderer.setElementClass(this.document.body, 'isOpenMenu', this.isShown);
+      this.renderer.setElementClass(this.document.body, 'my-class', this.isShown);
+      this.renderer.setElementClass(this.document.body, 'isOpenMenu2', this.isShown);
+    
      // this.renderer.setElementClass(this.document., 'isOpenMenu', this.isShown);
       if (this.isShown === false) {
         this.renderer.setElementProperty(this.document.body, 'scrollTop', 0);

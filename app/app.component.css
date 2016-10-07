@@ -560,11 +560,19 @@ body,html {
     left: -100%;
     height: calc(100% - 69px);
   }
-
-  .isOpenMenu #main-menu {
-    left: 0;
-     height: calc(100% - 69px);
+  
+ .my-class {
+    background-color: yellow;
   }
+  .isOpenMenu main-menu #main-menu{
+    left: 0;
+    
+  }
+/* not work
+  .isOpenMenu #main-menu{
+    left: 0;
+    
+  }*/
 
   #main {
     width: 100%;
