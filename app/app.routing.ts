@@ -7,7 +7,7 @@ import { HeroDetailComponent }  from './hero-about/hero-detail.component';
 import { ChartComponent }  from './chart/chart.component';
 import { BootstrapComponent }  from './bootstrap/bootstrap.component';
 
-const appRoutes: Routes = [
+export const appRoutes: Routes = [
   {
     path: '',
     redirectTo: '/dashboard',

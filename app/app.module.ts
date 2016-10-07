@@ -9,6 +9,7 @@ import { HeroesComponent }      from './hero-about/heroes.component';
 import { HeroService }          from './hero-about/hero.service';
 import { routing } from './app.routing';
 
+
 //Chart 
 import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { ChartComponent }  from './chart/chart.component';
@@ -42,6 +43,12 @@ import { TabsDemoComponent } from './bootstrap/components/tabs/tabs-demo';
 import { TimepickerDemoComponent } from './bootstrap/components/timepicker/timepicker-demo';
 import { TooltipDemoComponent } from './bootstrap/components/tooltip/tooltip-demo';
 import { TypeaheadDemoComponent } from './bootstrap/components/typeahead/typeahead-demo';
+
+//menu
+import { appRoutes } from './app.routing';
+import { MainMenuComponent } from './menu/main-menu/main-menu.component';
+import { SearchFilterPipe } from './menu/main-menu/search-filter.pipe';
+import { TopMenuComponent } from './menu/top-menu/top-menu.component';
 
 @NgModule({
   imports: [
@@ -87,7 +94,12 @@ import { TypeaheadDemoComponent } from './bootstrap/components/typeahead/typeahe
     TabsDemoComponent,
     TimepickerDemoComponent,
     TooltipDemoComponent,
-    TypeaheadDemoComponent
+    TypeaheadDemoComponent,
+
+    //menu
+    MainMenuComponent,
+    SearchFilterPipe,
+    TopMenuComponent
     
   ],
   providers: [

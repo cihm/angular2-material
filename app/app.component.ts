@@ -2,17 +2,7 @@ import { Component, ViewContainerRef } from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  template: `
-    <h1>{{title}}</h1>
-    <nav>
-      <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
-      <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
-      <a routerLink="/chart" routerLinkActive="active">Chart</a>
-      <a routerLink="/bootstrap" routerLinkActive="active">Bootstrap</a>
-      
-    </nav>
-    <router-outlet></router-outlet><div>123456</div>
-  `,
+  templateUrl:'app/app.component.html',
   styleUrls: ['app/app.component.css'],
 })
 export class AppComponent {

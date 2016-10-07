@@ -48,6 +48,9 @@ var tabs_demo_1 = require('./bootstrap/components/tabs/tabs-demo');
 var timepicker_demo_1 = require('./bootstrap/components/timepicker/timepicker-demo');
 var tooltip_demo_1 = require('./bootstrap/components/tooltip/tooltip-demo');
 var typeahead_demo_1 = require('./bootstrap/components/typeahead/typeahead-demo');
+var main_menu_component_1 = require('./menu/main-menu/main-menu.component');
+var search_filter_pipe_1 = require('./menu/main-menu/search-filter.pipe');
+var top_menu_component_1 = require('./menu/top-menu/top-menu.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -93,7 +96,11 @@ var AppModule = (function () {
                 tabs_demo_1.TabsDemoComponent,
                 timepicker_demo_1.TimepickerDemoComponent,
                 tooltip_demo_1.TooltipDemoComponent,
-                typeahead_demo_1.TypeaheadDemoComponent
+                typeahead_demo_1.TypeaheadDemoComponent,
+                //menu
+                main_menu_component_1.MainMenuComponent,
+                search_filter_pipe_1.SearchFilterPipe,
+                top_menu_component_1.TopMenuComponent
             ],
             providers: [
                 hero_service_1.HeroService

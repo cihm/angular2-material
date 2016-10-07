@@ -5,7 +5,7 @@ var heroes_component_1 = require('./hero-about/heroes.component');
 var hero_detail_component_1 = require('./hero-about/hero-detail.component');
 var chart_component_1 = require('./chart/chart.component');
 var bootstrap_component_1 = require('./bootstrap/bootstrap.component');
-var appRoutes = [
+exports.appRoutes = [
     {
         path: '',
         redirectTo: '/dashboard',
@@ -32,7 +32,7 @@ var appRoutes = [
         component: bootstrap_component_1.BootstrapComponent
     }
 ];
-exports.routing = router_1.RouterModule.forRoot(appRoutes);
+exports.routing = router_1.RouterModule.forRoot(exports.appRoutes);
 /*
 Copyright 2016 Google Inc. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
