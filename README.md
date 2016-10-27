@@ -18,8 +18,8 @@
 
 
  ###list of material
- *router
- *menu
- *bootstrap
- *chart
- *font-awesome
+ * router
+ * menu
+ * bootstrap
+ * chart
+ * font-awesome
