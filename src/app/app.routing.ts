@@ -9,32 +9,32 @@ import { BootstrapComponent }  from './bootstrap/bootstrap.component';
 import { FontaewsomeComponent }  from './fontawesome/fa.component';
 export const appRoutes: Routes = [
   {
-    path: 'a1',
-    redirectTo: 'a1/dashboard',
+    path: '',
+    redirectTo: 'dashboard',
     pathMatch: 'full'
   },
   {
-    path: 'a1/dashboard',
+    path: 'dashboard',
     component: DashboardComponent
   },
   {
-    path: 'a1/detail/:id',
+    path: 'detail/:id',
     component: HeroDetailComponent
   },
   {
-    path: 'a1/heroes',
+    path: 'heroes',
     component: HeroesComponent
   },
   {
-    path: 'a1/chart',
+    path: 'chart',
     component: ChartComponent
   },
   {
-    path: 'a1/bootstrap',
+    path: 'bootstrap',
     component: BootstrapComponent
   },
   {
-    path: 'a1/fontawesome',
+    path: 'fontawesome',
     component: FontaewsomeComponent
   }
 ];
