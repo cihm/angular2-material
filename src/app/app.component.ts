@@ -1,5 +1,6 @@
 import { Component, ViewContainerRef } from '@angular/core';
 import '../../public/css/styles.css';
+//require('style-loader!css-loader!font-awesome/css/font-awesome.css?');
 
 @Component({
   selector: 'my-app',

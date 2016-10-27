@@ -6,7 +6,7 @@ import { HeroesComponent }      from './hero-about/heroes.component';
 import { HeroDetailComponent }  from './hero-about/hero-detail.component';
 import { ChartComponent }  from './chart/chart.component';
 import { BootstrapComponent }  from './bootstrap/bootstrap.component';
-
+import { FontaewsomeComponent }  from './fontawesome/fa.component';
 export const appRoutes: Routes = [
   {
     path: 'a1',
@@ -32,6 +32,10 @@ export const appRoutes: Routes = [
   {
     path: 'a1/bootstrap',
     component: BootstrapComponent
+  },
+  {
+    path: 'a1/fontawesome',
+    component: FontaewsomeComponent
   }
 ];
 

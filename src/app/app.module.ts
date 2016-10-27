@@ -50,6 +50,10 @@ import { MainMenuComponent } from './menu/main-menu/main-menu.component';
 import { SearchFilterPipe } from './menu/main-menu/search-filter.pipe';
 import { TopMenuComponent } from './menu/top-menu/top-menu.component';
 
+//fontawesome
+import { FontaewsomeComponent } from './fontawesome/fa.component';
+
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -99,7 +103,10 @@ import { TopMenuComponent } from './menu/top-menu/top-menu.component';
     //menu
     MainMenuComponent,
     SearchFilterPipe,
-    TopMenuComponent
+    TopMenuComponent,
+
+    //fontawesome
+    FontaewsomeComponent
     
   ],
   providers: [
