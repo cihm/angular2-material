@@ -11,3 +11,7 @@
   ```bash
     npm start
   ```
+### Build for tomcat
+ ```bash
+    npm run build
+ ```  
