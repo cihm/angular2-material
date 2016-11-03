@@ -7,6 +7,8 @@ import { HeroDetailComponent }  from './hero-about/hero-detail.component';
 import { ChartComponent }  from './chart/chart.component';
 import { BootstrapComponent }  from './bootstrap/bootstrap.component';
 import { FontaewsomeComponent }  from './fontawesome/fa.component';
+import { XLSXParseComponent } from './xlsx-parse/xlsx-parse.component';
+
 export const appRoutes: Routes = [
   {
     path: '',
@@ -36,6 +38,10 @@ export const appRoutes: Routes = [
   {
     path: 'fontawesome',
     component: FontaewsomeComponent
+  },
+  {
+    path: 'xlsx-parse',
+    component: XLSXParseComponent
   }
 ];
 

@@ -61,5 +61,14 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'src/index.html'
     })
+  ],
+  node: {
+    fs: 'empty'
+  },
+  externals: [
+    { './cptable': 'var cptable' },
+    { './jszip': 'jszip' },
+    { './dist/cpexcel': 'cpexcel' }
+
   ]
 };

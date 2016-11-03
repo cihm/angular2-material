@@ -12,3 +12,8 @@ import 'chart.js';
 import 'rxjs';
 // Other vendors for example jQuery, Lodash or Bootstrap
 // You can import js, ts, css, sass, ...
+import 'xlsx/dist/xlsx.full.min.js';
+import 'xlsx/dist/cpexcel.js';
+import 'xlsx/dist/jszip.js';
+import 'xlsx/dist/ods.js';
+import 'xlsx/dist/xlsx.js';

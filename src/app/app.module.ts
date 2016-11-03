@@ -54,6 +54,9 @@ import { TopMenuComponent } from './menu/top-menu/top-menu.component';
 //fontawesome
 import { FontaewsomeComponent } from './fontawesome/fa.component';
 
+//xlsx-parse
+import { XLSXParseComponent } from './xlsx-parse/xlsx-parse.component';
+
 
 @NgModule({
   imports: [
@@ -107,8 +110,10 @@ import { FontaewsomeComponent } from './fontawesome/fa.component';
     TopMenuComponent,
 
     //fontawesome
-    FontaewsomeComponent
-    
+    FontaewsomeComponent,
+
+    //xlsx-parse
+    XLSXParseComponent
   ],
   providers: [
     HeroService,
