@@ -8,6 +8,8 @@ import { ChartComponent }  from './chart/chart.component';
 import { BootstrapComponent }  from './bootstrap/bootstrap.component';
 import { FontaewsomeComponent }  from './fontawesome/fa.component';
 import { XLSXParseComponent } from './xlsx-parse/xlsx-parse.component';
+import { BoostrapSelectDemoComponent } from './bootstrap-select-demo/bootstrap-select-demo.component';
+
 
 export const appRoutes: Routes = [
   {
@@ -42,7 +44,12 @@ export const appRoutes: Routes = [
   {
     path: 'xlsx-parse',
     component: XLSXParseComponent
+  },
+  {
+    path: 'bootstrap-select',
+    component: BoostrapSelectDemoComponent
   }
+
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

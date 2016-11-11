@@ -1,0 +1,8 @@
+<div *ngFor="let field of fields">
+  <label>{{field}}</label>
+  <select id="{{field}}" (change)="onChange($event)" class="selectpicker">
+      <option></option>
+      <option *ngFor="let option of internalOptions" [disabled]="option.disabled?true:false">{{option.value}}</option>
+  </select>
+</div>
+

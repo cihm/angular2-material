@@ -57,6 +57,9 @@ import { FontaewsomeComponent } from './fontawesome/fa.component';
 //xlsx-parse
 import { XLSXParseComponent } from './xlsx-parse/xlsx-parse.component';
 
+//bootstrap-select
+import { BoostrapSelectDemoComponent } from './bootstrap-select-demo/bootstrap-select-demo.component';
+
 
 @NgModule({
   imports: [
@@ -113,7 +116,10 @@ import { XLSXParseComponent } from './xlsx-parse/xlsx-parse.component';
     FontaewsomeComponent,
 
     //xlsx-parse
-    XLSXParseComponent
+    XLSXParseComponent,
+
+    // bootstrap-select
+    BoostrapSelectDemoComponent
   ],
   providers: [
     HeroService,
