@@ -1,7 +1,7 @@
 import { Component, OnInit }      from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Location }               from '@angular/common';
-import { Ng2BootstrapConfig, Ng2BootstrapTheme } from 'ng2-bootstrap/ng2-bootstrap';
+//import { Ng2BootstrapConfig, Ng2BootstrapTheme } from 'ng2-bootstrap/ng2-bootstrap';
 
 
 @Component({
